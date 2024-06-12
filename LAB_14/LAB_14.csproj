@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Cars">
+      <HintPath>..\..\LabCars_10\Cars\obj\Debug\net8.0\Cars.dll</HintPath>
+    </Reference>
+    <Reference Include="LAB_12_4">
+      <HintPath>..\..\LAB_12\LAB_12_4\bin\Debug\net8.0\LAB_12_4.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
